@@ -1,4 +1,4 @@
-# GAPIC Generator
+# GAPIC Gen
 
 [![Build Status](https://travis-ci.org/googleapis/gapic-generator.svg?branch=master)](https://travis-ci.org/googleapis/gapic-generator)
 [![CircleCI](https://circleci.com/gh/googleapis/gapic-generator.svg?style=svg)](https://circleci.com/gh/googleapis/gapic-generator)
@@ -25,7 +25,7 @@ and Python. This feature is not yet documented here in detail - the instructions
 The GAPIC Generator itself doesn't have a platform restriction (because it is purely Java). Since `protoc` needs to be used as
 part of the code generation process, the platforms are naturally restricted to what protoc supports.
 
-As of release 3.5.1 of `protoc`, below are the known platforms that `protoc` has pre-built binaries for:
+As of release 3.5.1 of `protoc`, below are the known platforms that `protoc` has pre-built binaries for:cp -r ${GENERATED_PROTO_DIR}/* ${GENERATED_CLIENT_DIR}/src/main/java
 
 - linux-aarch_64
 - linux-x86_32
